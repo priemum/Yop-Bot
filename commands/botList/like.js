@@ -6,7 +6,7 @@ const Command = require("../../structure/Command.js"),
       { botslogs } = require("../../configs/channels.json");
 
 class Like extends Command {
-    constructor() {
+    constructor() {            
         super({
             name: 'like',
             category: 'botlist',
